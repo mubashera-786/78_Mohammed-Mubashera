@@ -1,4 +1,4 @@
-Project Title
+Project Title:
 AI Customer Service Agent using Retrieval-Augmented Generation (RAG)
 
 Project Description:
