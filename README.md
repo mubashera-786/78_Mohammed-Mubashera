@@ -22,3 +22,90 @@ Manual handling of queries leads to higher operational costs.
 There is a need for an AI-powered customer service agent.
 The system should be able to automatically understand, respond to, and resolve customer queries in real time.
 
+##  Key Features
+
+*  **Retrieval-Augmented Generation (RAG)** for accurate answers
+*  Supports **document-based Q&A** (PDFs / text data)
+*  Uses **LLMs** for natural language understanding
+*  FastAPI backend for high performance
+*  Web-based frontend for user interaction
+*  Vector database for semantic search
+*  Secure and scalable architecture
+*  Suitable for enterprise customer support
+
+##  System Architecture
+
+**User → Web UI → FastAPI Backend → RAG Pipeline → LLM → Response → User**
+
+### Architecture Flow:
+
+1. User enters a query
+2. Query is converted into embeddings
+3. Relevant documents are retrieved from vector DB
+4. Retrieved context is passed to the LLM
+5. LLM generates a final, accurate response
+
+##  Tech Stack
+
+### Backend
+
+* **Python 3.11**
+* **FastAPI** – REST API framework
+* **Uvicorn** – ASGI server
+
+### AI & NLP
+
+* **Large Language Model (LLM)** ( Gemini )
+* **Sentence Transformers / Embeddings**
+* **LangChain** for RAG pipeline
+
+### Data Layer
+
+* **Vector Database** (Chroma)
+* **Document Loader** (PDF / Text)
+
+### Frontend
+
+* **HTML / CSS / JavaScript**
+* Chat-style UI
+
+##  How RAG Works in This Project
+
+1. **Document Ingestion**
+
+   * PDFs/text documents are loaded
+   * Split into chunks
+   * Converted into embeddings
+   * Stored in vector database
+
+2. **User Query Processing**
+
+   * User query is embedded
+   * Similar vectors are retrieved
+
+3. **Context Injection**
+
+   * Retrieved documents are injected into prompt
+
+4. **LLM Response Generation**
+
+   * LLM generates an answer grounded in retrieved data
+     
+##  Use Cases
+
+* Customer Support Automation
+* FAQ Bot
+* Internal Company Knowledge Assistant
+* Policy & Documentation Assistant
+* E-commerce Support Agent
+
+
+
+
+
+
+---
+
+> 💡 *This project demonstrates strong understanding of AI systems, backend design, and real-world problem solving.*
+
+
