@@ -100,12 +100,3 @@ The system should be able to automatically understand, respond to, and resolve c
 * E-commerce Support Agent
 
 
-
-
-
-
----
-
-> 💡 *This project demonstrates strong understanding of AI systems, backend design, and real-world problem solving.*
-
-
