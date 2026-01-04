@@ -8,7 +8,7 @@ Implemented Retrieval-Augmented Generation (RAG) to provide accurate answers.
 User queries are sent through an /ask API endpoint.
 The system retrieves relevant documents from a vector database before generating responses.
 Returns both answer and source document IDs for transparency.
-Uses ChromaDB / FAISS for fast similarity search.
+Uses ChromaDB for fast similarity search.
 Developed using Python and LangChain.
 Added simple escalation rules to forward complex or unresolved issues to human agents.
 Helps reduce manual workload and improves response time in customer support.
